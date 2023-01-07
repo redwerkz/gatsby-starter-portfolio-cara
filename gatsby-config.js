@@ -20,6 +20,7 @@ module.exports = {
   },
   trailingSlash: `never`,
   plugins: [
+    `gatsby-plugin-pnpm`,
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
